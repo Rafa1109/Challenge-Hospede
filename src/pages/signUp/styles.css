@@ -1,0 +1,76 @@
+.container-signUp { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container-signUp form {
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 10px;
+  }
+
+.container-signUp form p{
+        color: hsl(192, 100%, 41%);
+        margin-bottom: 15px;
+        border: 1px solid hsl(192, 100%, 41%);
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+.input-signUp{
+        flex: 1;
+        margin-bottom: 15px;
+        padding: 0 20px;
+        color: #777;
+        font-size: 15px;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+.container-signUp form input::placeholder{
+    color: #999;
+}
+ 
+.container-signUp form button{
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        background: hsl(192, 100%, 41%);
+        height: 56px;
+        border: 0;
+        border-radius: 5px;
+        width: 100%;
+    }
+.container-signUp form hr{
+        margin: 20px 0;
+        border: none;
+        border-bottom: 1px solid #cdcdcd;
+        width: 100%;
+    }
+.container-signUp form a {
+        font-size: 16;
+        font-weight: bold;
+        color: #999;
+        text-decoration: none;
+      }
+
+      #erro {
+        color: #0374d1;
+        margin-bottom: 15px;
+        border: 1px solid #0374d1;
+        padding: 10px;
+        width: 100%;
+        height: 35px;
+        line-height: 16px;
+        text-align: center;
+      }

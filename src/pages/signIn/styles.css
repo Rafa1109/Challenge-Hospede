@@ -1,0 +1,71 @@
+.container-sign{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-sign form {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+#img-logo{
+  width: 100px;
+  height: 100px;
+  margin: 5px 0 10px;
+}
+
+.container-sign form a {
+    font-size: 16;
+    font-weight: bold;
+    color: #999;
+    text-decoration: none;
+  }
+
+.container-sign form hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #cdcdcd;
+    width: 100%;
+  }
+
+.container-sign form button {
+    color: #fff;
+    font-size: 16px;
+    background: hsl(192, 100%, 41%);
+    height: 56px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+.input-sign {
+    width: 100%;
+    flex: 1;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    color: #777;
+    font-size: 15px;
+    border: 1px solid #ddd;
+}
+
+.input-sign::placeholder {
+    color: #999;
+  }
+
+#erro {
+    color: #0374d1;
+    margin-bottom: 15px;
+    border: 1px solid #0374d1;
+    padding: 10px;
+    width: 100%;
+    height: 35px;
+    line-height: 16px;
+    text-align: center;
+  }

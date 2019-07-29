@@ -1,0 +1,73 @@
+.container-home{
+    width: 100%;
+    height: 60px;
+}
+.header-main{
+    width: 100%;
+    height: 60px;
+    background: hsl(192, 100%, 41%);
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main h1{
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+#name-user{
+    line-height: 60px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 50%
+}
+
+.header-main button{
+    width: 85px;
+    background:  hsl(192, 100%, 41%);
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 50px;
+}
+
+.div-tarefas{
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.form-tarefa{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-tarefa{
+    width: 400px;
+    margin-right: 10px;
+}
+
+.form-edTarefas{
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-tarefas{
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000; 
+}
+
+.botao-lista{
+    margin-left: 5px; 
+}
