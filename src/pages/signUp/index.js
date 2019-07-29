@@ -13,7 +13,6 @@ class SignUp extends Component {
             password: '',
             error: ''
         };
-
     }
 
     handleSignUp = async e => {
@@ -26,8 +25,6 @@ class SignUp extends Component {
                const response = await api.post('/users', user);
                if(response.status === 201){
                    this.props.history.push('/');
-               }else{
-                   this.setState({error: 'Erro ao registrar'})
                }
            }catch (e) {
                 console.log(e);

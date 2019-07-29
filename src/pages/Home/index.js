@@ -101,8 +101,8 @@ class Home extends Component {
                             />
                             <button type="submit" className="btn btn-success botao">Adicionar</button>
                         </form>
+                        <hr />
                     </div>
-                    
                     {this.state.edTarefa ?
                         <div className="div-tarefas">
                             <h4>Editar Tarefa</h4>
@@ -117,6 +117,7 @@ class Home extends Component {
                                     />
                                     <button type="submit" disabled={!this.state.edTarefa} className="btn btn-info botao">Salvar</button>
                             </form>
+                            <hr />
                         </div>
                     : null}
 
