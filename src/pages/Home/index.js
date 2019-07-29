@@ -123,7 +123,7 @@ class Home extends Component {
 
                     <div>
                         <section className="lista-tarefas">
-                            <h3>Lista de Tarefas</h3>
+                            <h4>Lista de Tarefas</h4>
                             <table className="table table-hover table-bordered tabela-tarefa">
                                 <thead>
                                     <tr>
@@ -134,8 +134,8 @@ class Home extends Component {
                                 {this.state.tarefas.map(tarefa => (
                                     <tbody>
                                         <tr key={tarefa._id}>
-                                            <td>{tarefa.value}</td>
-                                            <td><button
+                                            <td className="">{tarefa.value}</td>
+                                            <td className="acao"><button
                                                 className="btn btn-primary botao-lista"
                                                 onClick={() => this.editarTarefa(tarefa._id, tarefa.value)}>Editar</button>
                                                 <button 
