@@ -105,3 +105,10 @@
 .botao{
     width: 90px;
 }
+
+#mensagem{
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}

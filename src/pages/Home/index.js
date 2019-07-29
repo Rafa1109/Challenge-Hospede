@@ -87,6 +87,7 @@ class Home extends Component {
                         <h2 id="name-user">Olá {getUser().name}</h2>
                         <button onClick={this.handleLogOut}>Sair</button>
                     </header>
+
                 <div className="box">
                     <div className="div-tarefas">
                         <h4>Adicionar nova tarefa</h4>
@@ -134,7 +135,7 @@ class Home extends Component {
                                 {this.state.tarefas.map(tarefa => (
                                     <tbody>
                                         <tr key={tarefa._id}>
-                                            <td className="">{tarefa.value}</td>
+                                            <td>{tarefa.value}</td>
                                             <td className="acao"><button
                                                 className="btn btn-primary botao-lista"
                                                 onClick={() => this.editarTarefa(tarefa._id, tarefa.value)}>Editar</button>
@@ -143,7 +144,6 @@ class Home extends Component {
                                                 onClick={() => this.handleDeleteTarefa(tarefa._id)}>Excluir</button>
                                             </td>
                                         </tr>
-                                
                                     </tbody>
                                 ))}
                             </table>
