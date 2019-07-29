@@ -5,12 +5,17 @@
 .header-main{
     width: 100%;
     height: 60px;
-    background: hsl(192, 100%, 41%);
+    background: #282b35;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
     display: flex;
     justify-content: space-between;
+}
+
+#img-logo{
+    margin: 10px;
+    height: 40px;
 }
 
 .header-main h1{
@@ -27,7 +32,7 @@
 
 .header-main button{
     width: 85px;
-    background:  hsl(192, 100%, 41%);
+    background:  #282b35;
     border: 0;
     font-size: 20px;
     color: #fff;
@@ -36,9 +41,7 @@
 
 .div-tarefas{
     width: 600px;
-    margin-left: 400px;
     margin-top: 10px;
-    border: 1px solid #000;
     padding: 10px;
     border-radius: 10px;
     
@@ -61,13 +64,26 @@
 
 .lista-tarefas{
     width: 600px;
-    margin-left: 400px;
     margin-top: 5px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #000; 
 }
 
 .botao-lista{
     margin-left: 5px; 
+}
+
+.btn-danger{
+    opacity: 0.9;
+}
+
+.box{
+    background: #fff;
+    width: 600px;
+    margin-left: 400px;
+    border-radius: 7px;
+}
+
+.botao{
+    width: 90px;
 }

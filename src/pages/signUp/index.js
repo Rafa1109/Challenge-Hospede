@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import api from '../../services/api';
 import './styles.css';
-import Logo from '../../asserts/logo.png';
+import Logo from '../../asserts/hospede.svg';
 
 class SignUp extends Component {
     constructor(props){
@@ -15,7 +15,6 @@ class SignUp extends Component {
         };
 
     }
-    
 
     handleSignUp = async e => {
        e.preventDefault();

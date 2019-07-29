@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import api from '../../services/api';
 import { login, isAuthenticated } from '../../services/auth';
-import Logo from '../../asserts/logo.png'
+import Logo from '../../asserts/hospede.svg'
 import './styles.css'
 
 class SignIn extends Component {

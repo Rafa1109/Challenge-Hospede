@@ -10,7 +10,7 @@ export const GlobalStyle =  createGlobalStyle`
   outline: 0;
 }
 body, html {
-  background: #ddd;
+  background: #eeeeee;
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;

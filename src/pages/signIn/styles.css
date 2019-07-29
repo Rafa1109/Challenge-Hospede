@@ -1,13 +1,14 @@
 .container-sign{
   display: flex;
   align-items: center;
+  background: #efefef;
   justify-content: center;
   height: 100vh;
 }
 
 .container-sign form {
   width: 400px;
-  height: 400px;
+  height: 350px;
   background: #fff;
   padding: 20px;
   display: flex;
@@ -16,8 +17,7 @@
 }
 
 #img-logo{
-  width: 100px;
-  height: 100px;
+  width: 200px;
   margin: 5px 0 10px;
 }
 
@@ -38,7 +38,7 @@
 .container-sign form button {
     color: #fff;
     font-size: 16px;
-    background: hsl(192, 100%, 41%);
+    background: #f18800;
     height: 56px;
     border: 0;
     border-radius: 5px;
