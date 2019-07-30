@@ -81,7 +81,7 @@ class Home extends Component {
 
     render(){
         return(
-            <div className="container-home">
+            <div className="container-home">    
                     <header className="header-main">
                         <img id="img-logo" src={Logo} alt="Logo"/>
                         <h2 id="name-user">Olá {getUser().name}</h2>
@@ -125,6 +125,7 @@ class Home extends Component {
                     <div>
                         <section className="lista-tarefas">
                             <h4>Lista de Tarefas</h4>
+                            {this.state.tarefas.length >= 1 ?
                             <table className="table table-hover table-bordered tabela-tarefa">
                                 <thead>
                                     <tr>
@@ -147,6 +148,7 @@ class Home extends Component {
                                     </tbody>
                                 ))}
                             </table>
+                            : <p id="mensagem">Você ainda não adicionou nenhuma tarefa!</p>}
                         </section>
                     </div>
                 </div>
